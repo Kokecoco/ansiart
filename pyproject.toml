@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=42","wheel","setuptools_scm[toml]>=3.4"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+write_to = "ansiart/_version.py"
+
+[project]
+name = "ansiart"
+description = "画像をANSIエスケープシーケンスに変換し、CLIに出力したり、テキストファイルに保存/読み込みを行うライブラリです。"
+readme = "README.md"
+authors = [{ name = "kokecoco", email = "kokecoco.kw@gmail.com" }]
+license = "MIT"
+dependencies = [
+    "Pillow==10.2.0"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dynamic = ["version"]
+
+[tool.setuptools]
+include-package-data = true
+packages = ["ansiart"]
