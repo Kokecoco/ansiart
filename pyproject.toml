@@ -10,7 +10,7 @@ name = "ansiart"
 description = "画像をANSIエスケープシーケンスに変換し、CLIに出力したり、テキストファイルに保存/読み込みを行うライブラリです。"
 readme = "README.md"
 authors = [{ name = "kokecoco", email = "kokecoco.kw@gmail.com" }]
-license = "MIT"
+license = {file = "LICENSE"}
 dependencies = [
     "Pillow==10.2.0"
 ]
