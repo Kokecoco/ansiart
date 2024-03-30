@@ -8,7 +8,7 @@ local_scheme = "no-local-version"
 
 [project]
 name = "ansiart"
-description = "画像をANSIエスケープシーケンスに変換し、CLIに出力したり、テキストファイルに保存/読み込みを行うライブラリです。"
+description = "This is a library that converts the image to ANSI escape sequence, outputs it to the CLI, and saves/loads into a text file."
 readme = "README.md"
 authors = [{ name = "kokecoco", email = "kokecoco.kw@gmail.com" }]
 license = {file = "LICENSE"}
