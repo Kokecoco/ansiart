@@ -22,10 +22,10 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dynamic = ["version"]
-urls = {
-    Homepage = "https://kokecoco.github.io/ansiart-docs/",
-    Repository = "https://github.com/Kokecoco/ansiart"
-}
+
+[project.urls]
+Homepage = "https://kokecoco.github.io/ansiart-docs/"
+Repository = "https://github.com/Kokecoco/ansiart"
 
 
 [tool.setuptools]
