@@ -23,8 +23,8 @@ classifiers = [
 ]
 dynamic = ["version"]
 urls = {
-    "Homepage" = "https://kokecoco.github.io/ansiart-docs/"
-    "Repository" = "https://github.com/Kokecoco/ansiart",
+    "Homepage" = "https://kokecoco.github.io/ansiart-docs/",
+    "Repository" = "https://github.com/Kokecoco/ansiart"
 }
 
 
