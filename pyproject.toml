@@ -1,10 +1,6 @@
 [build-system]
-requires = ["setuptools>=42","wheel","setuptools_scm[toml]>=3.4"]
+requires = ["setuptools>=42","wheel"]
 build-backend = "setuptools.build_meta"
-
-[tool.setuptools_scm]
-write_to = "ansiart/_version.py"
-local_scheme = "no-local-version"
 
 [project]
 name = "ansiart"
@@ -21,7 +17,7 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
-dynamic = ["version"]
+version = "1.1.0"
 
 [project.urls]
 Homepage = "https://kokecoco.github.io/ansiart-docs/"
