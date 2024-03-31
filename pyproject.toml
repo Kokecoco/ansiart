@@ -11,6 +11,7 @@ name = "ansiart"
 description = "This is a library that converts the image to ANSI escape sequence, outputs it to the CLI, and saves/loads into a text file."
 readme = "README.md"
 authors = [{ name = "kokecoco", email = "kokecoco.kw@gmail.com" }]
+keywords = ["ansi", "art", "image", "cli", "terminal"]
 license = {file = "LICENSE"}
 dependencies = [
     "Pillow==10.2.0"
@@ -21,6 +22,11 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dynamic = ["version"]
+urls = {
+    "Homepage" = "https://kokecoco.github.io/ansiart-docs/"
+    "Repository" = "https://github.com/Kokecoco/ansiart",
+}
+
 
 [tool.setuptools]
 include-package-data = true
